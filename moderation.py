@@ -20,3 +20,4 @@ async def kick (ctx, member:discord.User=None, reason =None):
     await ctx.channel.send(f"{member} has been kicked for {reason}!")
 
 client.run('Token here')
+#doesnt work
